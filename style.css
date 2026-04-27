@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  margin: 10vh 25vw;     
+  height: 80vh;          
+  border: 4px solid black;
+}
+
+/* Image */
+.link img {
+  width: 100%;
+  height: 60vh;
+  display: block;
+}
+
+/* Button */
+.link button {
+  width: 100%;
+  height: 20vh;
+  color: white;
+  font-size: 10vh;
+  cursor: pointer;
+  border: none;
+
+  /* Gradient background */
+  background: olive;
+}
